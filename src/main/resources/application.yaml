@@ -1,0 +1,17 @@
+spring.cloud:
+  function.definition: listener
+#    stream:
+#      kafka:
+#        binder:
+#          autoAddPartitions: true
+#          minPartitionCount: 4
+#      bindings:
+#        listener-in-0:
+#          destination: partitioned.input
+#          group: custom
+#        listener-out-0:
+#          destination: partitioned.output
+#          group: custom
+
+
+spring.task.scheduling.pool.size: 2
